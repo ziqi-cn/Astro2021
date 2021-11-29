@@ -1,0 +1,12 @@
+{
+	"loglevel": "debug",
+	"datasets": [
+		"sample/sets_v1_0.csv"
+	],
+	"trainlabels": ["sample/trainlabel.csv"],
+	"testlabels": ["sample/testlabel.csv"],
+	"feather": {
+		"train": "data/feather/medium/train_norm.feather",
+		"test": "data/feather/medium/test_norm.feather"
+	}
+}

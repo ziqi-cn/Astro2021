@@ -1,0 +1,12 @@
+{
+	"loglevel": "debug",
+	"datasets": [
+		"D:\\test\\data.csv"
+	],
+	"trainlabels": [""],
+	"testlabels": ["D:\\test\\label.csv"],
+	"feather": {
+		"train": "",
+		"test": "D:\\test\\test_norm.feather"
+	}
+}

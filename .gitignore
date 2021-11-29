@@ -1,0 +1,5 @@
+
+*.feather
+*.pyc
+*.csv
+Astro/models/*

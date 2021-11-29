@@ -1,0 +1,20 @@
+{
+	"loglevel": "debug",
+	"datasets": [
+		"data/sets_v1_0.csv", 
+		"data/sets_v1_1.csv", 
+		"data/sets_v1_2.csv", 
+		"data/sets_v1_3.csv",
+		"data/sets_v1_4.csv",
+		"data/sets_v1_5.csv",
+		"data/sets_v1_6.csv",
+		"data/sets_v1_7.csv",
+		"data/sets_v1_8.csv"
+	],
+	"trainlabels": ["data/trainlabel.csv"],
+	"testlabels": ["data/testlabel.csv"],
+	"feather": {
+		"train": "data/feather/all/train_norm.feather",
+		"test": "data/feather/all/test_norm.feather"
+	}
+}
